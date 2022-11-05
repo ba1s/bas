@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+}
+.list ul{
+    align-items: center;
+}
+.list li{
+    color: #405C5D;
+    list-style-type: square;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list dd{
+    color: #405C5D;
+    list-style-type: square;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+a{
+    display: inline;
+    text-align: right;
+    text-decoration: none;
+    font-size: 25px;
+    color: #405C5D;
+    border: 2px solid #405C5D;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1px;
+    transition: 0.4s ease;
+}
+a:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: #405C5D;
+}

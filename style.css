@@ -1,0 +1,257 @@
+body{
+    background-color: #24252a;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow:auto;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+header {
+    background-color:  #24252a;
+    width:100%;
+    position: fixed;
+    z-index: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px;
+    margin: 0px;
+    text-transform: uppercase;
+    box-shadow:0px 6px 6px rgb(0, 0, 0);
+}
+header h1{
+    color: #405C5D;
+}
+.main h1{
+    color: #ffffff;
+    text-align: left;
+    font-size: 80px;
+    padding:0px 10px 0px 0px;
+    text-shadow:0px 0px 8px rgb(0, 0, 0);
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 30px;
+    padding:10px 20px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.links a:hover{
+    color:#405C5D;
+}
+section{
+    padding:100px 200px;
+}
+.main{
+    width:auto;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    background:url(images/background1.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
+.main h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px ;
+    text-shadow: 0px 10px 6px black;
+    
+}
+.main p{
+    display: inline;
+    color: white;
+    font-size:35px;
+    background-color: #405c5d81;
+    padding:10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 4px black;
+}
+.email{
+    padding: 35px;
+}
+.email label,input {
+    display: block;
+    padding: 10px;
+    
+    
+}
+.email label{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.email input{
+    background-color: #405c5d77;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    transition: o.4s ease 0s;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+.email input:hover{
+    background-color: #405C5D;
+}
+.sure input{
+    display: inline;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0px;
+    padding: 9px;
+}
+
+
+
+#title{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.group{
+    width:auto;
+    height:700px;
+}
+.group iframe{
+    width: 100%;
+    height:100%;
+    
+}
+#myframe{
+    min-width: 100%;
+    min-height: 100%;
+}
+.image{
+    background-color: white;
+    height:700px;
+}
+.imageA iframe{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    
+}
+.imageA{
+    display: flex;
+    justify-content: center;
+    
+}
+.videoA iframe{
+    width:700px;
+    height:700px;
+}
+.videoA { 
+    display: flex;
+    justify-content: center;
+}
+.list{
+    background-color: white;
+    height: 800px;
+}
+footer{
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .p1{
+    color: #405C5D;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+footer .p2{
+    color: #405C5D;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: end;
+    padding: 0;
+    margin: 0;
+}
+.thx p{
+    color: white;
+
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .header a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h1{
+        font-size: 1em;
+    }
+
+    .main-content h1{
+        font-size: 1.6em;
+    }
+
+    .image{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

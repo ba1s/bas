@@ -1,0 +1,25 @@
+body{
+  padding: 0;  
+  margin: 0;
+}
+table ,tr, th, td{
+    border-collapse:collapse ;
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+    color: white;
+    text-align: left;
+}
+th{
+    background-color:rgb(60, 89, 89);
+}
+tr{
+    transition: all 0.3s ease 0s; 
+}
+tr:hover{
+    background-color: silver;
+}
+td:hover{
+    color:rgb(60, 89, 89);
+}
